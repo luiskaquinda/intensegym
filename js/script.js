@@ -133,7 +133,7 @@ $( document ).ready(function() {
 // Parallax
 
 setTimeout(function() {
-  $('#contact-section').parallax({imageSrc: 'assets/img/cidadeparallax.png'});
+  $('#contact-section').parallax({imageSrc: '../assets/parallax_background-04-1920x750.jpg'});
   $('#apply-area').parallax({imageSrc: 'assets/img/pattern.png'});
 }, 200);
 
