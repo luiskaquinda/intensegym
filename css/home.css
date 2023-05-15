@@ -67,11 +67,11 @@ body {
     cursor: pointer;
 }
 
-nav {
+/* nav {
     position: fixed;
     bottom: 90%;
     z-index: 99;
-}
+} */
 
 .nav-item a {
     text-decoration: none;
@@ -97,7 +97,7 @@ header, .carousel, .carousel-item, .carousel-inner, .d-block {
     color: var(--yellow);
 }
 .carousel-caption {
-    bottom: 100px;
+    bottom: 200px;
 }
 
 .carousel{
