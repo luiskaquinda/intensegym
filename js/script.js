@@ -127,3 +127,14 @@ $('.owl-carousel-video').owlCarousel({
 
 // 	lastScrollTop = scrollTop;
 // })
+
+$( document ).ready(function() {
+
+// Parallax
+
+setTimeout(function() {
+  $('#contact-section').parallax({imageSrc: 'assets/img/cidadeparallax.png'});
+  $('#apply-area').parallax({imageSrc: 'assets/img/pattern.png'});
+}, 200);
+
+});
